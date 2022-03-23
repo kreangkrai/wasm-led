@@ -12,4 +12,7 @@ impl Point{
     pub fn new(x:i32,y:i32)->Self{
         Point{x:x,y:y}
     }
+    pub fn get(&self) -> Point{
+        Point {x:self.x,y:self.y}
+    }
 }
